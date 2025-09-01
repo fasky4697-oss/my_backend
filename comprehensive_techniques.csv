@@ -1,0 +1,9 @@
+technique_name,true_positives,true_negatives,false_positives,false_negatives,confidence_level
+PCR (Polymerase Chain Reaction),92,88,3,7,0.95
+qPCR (Quantitative PCR),95,85,2,8,0.95
+RPA (Recombinase Polymerase Amplification),87,92,4,6,0.95
+LAMP (Loop-mediated Isothermal Amplification),89,90,5,4,0.95
+NASBA (Nucleic Acid Sequence-Based Amplification),84,86,8,9,0.95
+SDA (Strand Displacement Amplification),81,91,6,12,0.95
+TMA (Transcription-Mediated Amplification),88,87,7,8,0.95
+HDA (Helicase-Dependent Amplification),79,89,9,13,0.95
