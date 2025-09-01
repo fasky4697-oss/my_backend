@@ -273,11 +273,11 @@ function App() {
 
       <div className="container mx-auto px-6 py-12">
         <Tabs defaultValue="manual" className="w-full">
-          <TabsList className="grid w-full grid-cols-4">
-            <TabsTrigger value="manual">Manual Entry</TabsTrigger>
-            <TabsTrigger value="upload">File Upload</TabsTrigger>
-            <TabsTrigger value="kappa">Cohen's Kappa</TabsTrigger>
-            <TabsTrigger value="results">Results & Comparison</TabsTrigger>
+          <TabsList className="grid w-full grid-cols-4 mb-6">
+            <TabsTrigger value="manual" className="text-sm font-medium">Manual Entry</TabsTrigger>
+            <TabsTrigger value="upload" className="text-sm font-medium">File Upload</TabsTrigger>
+            <TabsTrigger value="kappa" className="text-sm font-medium">Cohen's Kappa</TabsTrigger>
+            <TabsTrigger value="results" className="text-sm font-medium">Results & Comparison</TabsTrigger>
           </TabsList>
 
           {/* Manual Data Entry Tab */}
